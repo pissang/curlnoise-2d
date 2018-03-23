@@ -1,0 +1,28 @@
+{
+  "name": "curlnoise-2d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node node_modules/webpack/bin/webpack.js -w --devtool eval-cheap-module-source-map",
+    "build": "node node_modules/webpack/bin/webpack.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pissang/curlnoise-2d.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pissang/curlnoise-2d/issues"
+  },
+  "homepage": "https://github.com/pissang/curlnoise-2d#readme",
+  "dependencies": {
+    "claygl": "^1.1.1",
+    "zrender": "^4.0.3"
+  },
+  "devDependencies": {
+    "text-loader": "0.0.1",
+    "webpack": "^3.11.0"
+  }
+}
