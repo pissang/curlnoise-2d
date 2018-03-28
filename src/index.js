@@ -29,7 +29,7 @@ function generateGradientImage() {
 var curlnoise = new CurlNoise();
 curlnoise.setSupersampling(2);
 curlnoise.setParticleDensity(256);
-curlnoise.setParticleSize(1);
+curlnoise.setParticleSize(2);
 curlnoise.setGradientTexture(new Texture2D({
     image: generateGradientImage()
 }));
